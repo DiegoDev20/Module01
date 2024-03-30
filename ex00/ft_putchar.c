@@ -1,8 +1,8 @@
 #include <unistd.h>
 void ft_putchar(char c);
-int main (void){
+int main(void){
 	char carac;
-	carac='a';
+	carac='h';
 	ft_putchar(carac);
 	return(0);
 }
