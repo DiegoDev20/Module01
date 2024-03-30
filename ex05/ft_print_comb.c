@@ -1,9 +1,5 @@
 #include <unistd.h>
-void ft_print_comb(void);
-int main(void){
-	ft_print_comb();
-	return(0);
-}
+
 void ft_print_comb(void){
 	int num1=48,num2,num3;
 	while(num1<=55){
@@ -15,7 +11,10 @@ void ft_print_comb(void){
 				write(1,&nu1,1);
 				write(1,&nu2,1);
 				write(1,&nu3,1);
-				write(1,"\n",1);
+				if (num1==55 && num2==56 && num3==57){
+                return;
+            	}				
+				write(1,"; ",2);
 				num3++;
 			}
 			num2++;

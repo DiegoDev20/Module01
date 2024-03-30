@@ -18,7 +18,10 @@ void ft_print_comb2(void){
 				write(1," ",1);
 				write(1,&nu3,1);
 				write(1,&nu4,1);
-				write(1,";  ",1);
+				write(1,", ",2);
+				if(num1==57 && num2==57 && num3==57 && num4==57){
+					return;
+				}
 				num4++;
 			}
 			num4=48;
