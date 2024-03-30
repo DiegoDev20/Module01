@@ -1,9 +1,5 @@
 #include <unistd.h>
-void ft_print_comb2(void);
-int main(void){
-	ft_print_comb2();
-	return(0);
-}
+
 void ft_print_comb2(void){
 	int num1=48,num2=48,num3=48,num4=48;
 	while(num1<=57 && num2<=57){
@@ -18,13 +14,13 @@ void ft_print_comb2(void){
 				write(1," ",1);
 				write(1,&nu3,1);
 				write(1,&nu4,1);
-				write(1,", ",2);
-				if(num1==57 && num2==57 && num3==57 && num4==57){
-					return;
-				}
+				if (!(num1 == 57 && num2 == 56 && num3 == 57 && num4 == 57)) {
+                   write(1, ", ", 2);
+                }
+		
 				num4++;
 			}
-			num4=48;
+			num4=num3+1;
 			num3++;
 		}
 		num3=48;
