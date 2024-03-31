@@ -1,3 +1,4 @@
+#include <unistd.h>
 void ft_print_reverse_alphabet(void){
 	int num1=97,num2=122;
      	while(num2>=num1){
