@@ -18,3 +18,12 @@ ex03 funciona correctamente
 ex04 funciona correctamente
 ex05 funciona correctamente
 ex06 funciona correctamente
+
+Rodrigo Lastra
+ex00 funciona correctamente
+ex01 funciona correctamente
+ex02 funciona correctamente
+ex03 funciona correctamente
+ex04 funciona correctamente
+ex05 funciona correctamente
+ex06 funciona correctamente
