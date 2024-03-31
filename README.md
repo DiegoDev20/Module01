@@ -38,3 +38,7 @@ ex05 ok
 ex05 ok pero hay un main dejado por rodrigo.
 
 pd: rogiro y luis hicieron una mala correccion en el ejercicio nr 02
+
+Anadelcarpio
+
+ex02 levanto correción uso libreria unistd.h
